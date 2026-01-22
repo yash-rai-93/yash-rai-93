@@ -7,7 +7,7 @@ I work at the intersection of **Data Science, Machine Learning, and Computer Vis
 
 ---
 
-## 🔬 Research Experience
+##  Research Experience
 **Undergraduate Researcher — BIT Mesra**  
 
 • Conducting undergraduate research in Scientific Machine Learning and Computer Vision with applications in bio-signal analysis.
@@ -17,9 +17,9 @@ I work at the intersection of **Data Science, Machine Learning, and Computer Vis
 • Assisting in documentation and preparation of research outputs for potential publication.
 ---
 
-## 🚀 Featured Projects
+##  Featured Projects
 
-### 🫀 BeatSync — AI-Powered Contactless Vital Sign Monitoring  
+###  BeatSync — AI-Powered Contactless Vital Sign Monitoring  
 **Computer Vision | NLP | FastAPI | RAG | Docker**
 
 - Built an AI system to estimate **heart rate and breathing rate** from a 30-second webcam video  
@@ -34,7 +34,7 @@ I work at the intersection of **Data Science, Machine Learning, and Computer Vis
 
 ---
 
-### 🏃 LSTM–CNN Human Activity Recognition  
+###  LSTM–CNN Human Activity Recognition  
 **Deep Learning | Sequence Modeling**
 
 - Developed a hybrid **CNN–LSTM** model for Human Activity Recognition
@@ -47,7 +47,7 @@ I work at the intersection of **Data Science, Machine Learning, and Computer Vis
 
 ---
 
-## 🧠 Technical Skills
+##  Technical Skills
 
 **Programming & Fundamentals**  
 - Python, C, C++, SQL  
@@ -70,7 +70,7 @@ I work at the intersection of **Data Science, Machine Learning, and Computer Vis
 
 ---
 
-## 🏆 Achievements
+##  Achievements
 - MMVY Scholarship Awardee (3 consecutive years)
 - Open-source contributor:
   - **GSSoC ’25**
@@ -78,20 +78,20 @@ I work at the intersection of **Data Science, Machine Learning, and Computer Vis
 
 ---
 
-## 🧑‍💼 Positions of Responsibility
+##  Positions of Responsibility
 
 ### AI & Quadcopter Head — Aerospace Society, BIT Mesra
 ### Outreach Head — Society of Data Science, BIT Mesra
 
 ---
 
-## 🎯 Currently Seeking
+##  Currently Seeking
 - **Internships / Entry-level roles** in  
   **Data Scientist | Data Analyst | Machine Learning Engineer**
 
 ---
 
-## 📫 Connect With Me
+##  Connect With Me
 - LinkedIn: https://www.linkedin.com/in/yash-rai-5235241a5/
 - Email: yashrai4426@gmail.com
 
