@@ -1,6 +1,6 @@
 # Hi, I'm Yash 👋
 
-Pre-final year **B.Tech (Artificial Intelligence & Machine Learning)** undergraduate at  
+Final year **B.Tech (Artificial Intelligence & Machine Learning)** undergraduate at  
 **Birla Institute of Technology, Mesra** .
 
 I work at the intersection of **Data Science, Machine Learning, and Computer Vision**, with a strong focus on building **robust, real-world intelligent systems**.
