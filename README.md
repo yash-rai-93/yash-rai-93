@@ -9,7 +9,7 @@ I'm a final-year engineering student who enjoys solving hard problems with clean
 [![Resume](https://img.shields.io/badge/Resume-View-blue?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1QSaz9Fv4lV0wQqBZtIxizqDlduQeDoyx/view?usp=sharing)
 [![Email](https://img.shields.io/badge/Email-yashrai4426%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashrai4426@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yash%20Rai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Yash-Rai)
-[![GitHub](https://img.shields.io/badge/GitHub-yash--rai--93-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yash-rai-93)
+
 [![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/yash-rai-93)
 
 </div>
