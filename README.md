@@ -47,17 +47,17 @@ I'm a final-year engineering student who enjoys solving hard problems with clean
 - Implemented motion and lighting validation using MediaPipe and OpenCV.
 - Containerized inference services using Docker and deployed them on Hugging Face Spaces, with the web application hosted on Render.
 
-🔗 [GitHub Repository](https://github.com/yash-rai-93/PRISM)
+🔗 [GitHub Repository](https://github.com/yash-rai-93/prism-rppg)
 
 ### NewsPilot — Multi-Agent AI Research & Newsletter Platform
-*Generative AI | LangGraph | LangChain | LLMOps | FastAPI | AWS*
+*Generative AI | LangGraph | FastAPI | AWS*
 
 - Built a multi-agent AI platform using LangGraph, LangChain, and Tavily Search to automate planning, research, drafting, review, and publishing.
 - Implemented optional Human-in-the-Loop approval and structured agent workflows.
 - Developed a production-ready backend using FastAPI, PostgreSQL (AWS RDS), Docker, GitHub Actions, and AWS EC2.
-- Implemented LLMOps capabilities including prompt versioning, evaluation, execution logging, REST APIs, and real-time streaming.
+- Implemented LLMOps capabilities including prompt versioning, evaluation, execution logging, REST APIs.
 
-🔗 [GitHub Repository](https://github.com/yash-rai-93/NewsPilot)
+🔗 [GitHub Repository](https://github.com/yash-rai-93/NewsPilot--AI)
 
 ---
 
