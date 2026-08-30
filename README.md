@@ -1,131 +1,178 @@
 <div align="center">
 
-# Hi, I'm Yash 👋
+# Hi, I'm Yash Rai 👋
 
-### Final-Year CS (AI & ML) Student @ BIT Mesra | Open to SDE Internship/New-Grad Roles
+### Data Scientist • ML Engineer • Data Analyst
+### B.Tech AI & ML @ BIT Mesra
 
-I'm a final-year engineering student who enjoys solving hard problems with clean, efficient code — building **production-grade backend systems** and applying **Machine Learning & Generative AI** to real-world applications. Currently looking for **SDE internship/full-time opportunities**.
+I build **data-driven and machine learning solutions** — from data cleaning and exploratory analysis to predictive modeling, visualization, deployment, and production ML systems.
+
+I'm particularly interested in **Machine Learning, Data Science, Analytics, Generative AI, MLOps, and Data Engineering**.
+
+<br>
 
 [![Resume](https://img.shields.io/badge/Resume-View-blue?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1QSaz9Fv4lV0wQqBZtIxizqDlduQeDoyx/view?usp=sharing)
-[![Email](https://img.shields.io/badge/Email-yashrai4426%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashrai4426@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yash%20Rai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/Yash-Rai)
-
+[![Email](https://img.shields.io/badge/Email-yashrai4426%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashrai4426@gmail.com)
 [![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/yash-rai-93)
 
 </div>
 
 ---
 
-## 🔬 Research Experience
+## 👨‍💻 About Me
 
-
-**Research Intern — BIT Mesra** *(January 2026 – April 2026)*
-- Designed and implemented PRISM, a physics-informed meta-learning architecture for robust rPPG-based heart rate estimation.
-- Integrated 8 deep learning models through an adaptive physics-informed routing architecture.
-- Achieved 1.08 BPM MAE in motion-intensive scenarios.
-- Filed a patent for the PRISM architecture.
-- Co-authored a research paper submitted to IEEE Transactions on Computational Biology and Bioinformatics (TCBB).
-- Worked with PyTorch, OpenCV, Computer Vision, Deep Learning, and physiological signal processing.
-
----
-
-## 💼 Work Experience
-
-**Freelance Machine Learning Engineer — Independent Client** *(May 2026 – June 2026)*
-- Designed and developed a distributed real-time predictive maintenance platform processing 600K+ machine events/day using Apache Kafka, Spark Structured Streaming, and Apache Airflow.
-- Developed production-ready ML inference services and REST APIs with FastAPI, automated CI/CD using GitHub Actions, and deployed production monitoring with Prometheus and Grafana, achieving an F1-score of 0.94.
+- 🎓 B.Tech student in **Artificial Intelligence & Machine Learning** at BIT Mesra
+- 📊 Interested in **Data Science, Machine Learning, and Data Analytics**
+- 🤖 Building applications using **Machine Learning, Generative AI, and Agentic Systems**
+- 📈 Experienced in **data analysis, exploratory data analysis, statistical analysis, and visualization**
+- ⚙️ Experience building **end-to-end ML and data pipelines**
+- 🗄️ Comfortable working with **SQL, PostgreSQL, and relational databases**
+- 🚀 Interested in taking ML systems from **data → model → API → deployment → monitoring**
+- 🧠 Currently strengthening **advanced SQL, analytics, ML engineering, and MLOps**
 
 ---
 
-## 🚀 Featured Projects
+# 🔬 Research Experience
 
-### PRISM — AI-Powered Real-Time Heart Rate Estimation
-*Deep Learning | Computer Vision | FastAPI | React | Docker*
+### Research Intern — BIT Mesra
+**January 2026 – April 2026**
 
-- Built a full-stack application serving the PRISM inference pipeline, integrating 8 deep learning models through a physics-informed meta-router.
-- Developed a FastAPI backend and interactive React frontend for real-time heart-rate estimation.
-- Implemented motion and lighting validation using MediaPipe and OpenCV.
-- Containerized inference services using Docker and deployed them on Hugging Face Spaces, with the web application hosted on Render.
+- Designed and implemented **PRISM**, a physics-informed meta-learning architecture for robust rPPG-based heart-rate estimation.
+- Integrated **8 deep learning models** through an adaptive physics-informed routing architecture.
+- Achieved **1.08 BPM MAE** in motion-intensive scenarios.
+- Filed a **patent** for the PRISM architecture.
+- Co-authored a research paper submitted to **IEEE Transactions on Computational Biology and Bioinformatics (TCBB)**.
+- Worked with **PyTorch, OpenCV, Computer Vision, Deep Learning, and physiological signal processing**.
+
+---
+
+# 💼 Industry Experience
+
+### Freelance Machine Learning Engineer — Independent Client
+**May 2026 – June 2026**
+
+- Designed and developed a distributed real-time predictive-maintenance platform processing **600K+ machine events/day** using **Apache Kafka, Spark Structured Streaming, and Apache Airflow**.
+- Built data pipelines involving **data validation, transformation, windowing, and feature engineering**.
+- Developed ML inference services and REST APIs using **FastAPI**.
+- Integrated **PostgreSQL** for data persistence and built production monitoring using **Prometheus and Grafana**.
+- Achieved an **F1-score of 0.94** for failure-risk prediction.
+
+---
+
+# 🚀 Featured Projects
+
+## 📊 Telecom Customer Churn Analysis & Prediction
+
+**Data Analytics • Machine Learning • Power BI • Python • SQL**
+
+- Analyzed **7,043 customer records** through data cleaning, exploratory analysis, and feature engineering to identify behavioral patterns and key drivers of customer churn.
+- Built a **Gradient Boosting** classification model to estimate customer churn probability and identify at-risk customers.
+- Developed an interactive **Power BI dashboard** for customer segmentation, churn trends, KPIs, and revenue-risk analysis.
+- Built a **Streamlit application** supporting individual and batch churn prediction with probability scores, feature importance, and actionable retention recommendations.
+- Applied **SMOTEENN** to address class imbalance during model development.
+
+🔗 [GitHub Repository](https://github.com/yash-rai-93/customer-churn-analysis-prediction)
+
+---
+
+## ☀️ Intelligent Solar Energy Generation Forecasting & Grid Optimization
+
+**Machine Learning • Time-Series Forecasting • Data Analytics • Generative AI**
+
+- Analyzed **4,213 solar-generation records** across 21 weather, solar-radiation, wind, and solar-geometry features.
+- Performed **data cleaning, exploratory analysis, feature engineering, and forecasting** to predict solar power generation.
+- Built an interactive **Streamlit analytics application** for forecast visualization, model evaluation, and generation analysis.
+- Developed an AI-powered decision-support workflow for **variability detection, risk analysis, knowledge retrieval, and grid optimization recommendations**.
+- Integrated **LangGraph and vector-based retrieval** to generate structured, context-aware recommendations.
+
+🔗 [GitHub Repository](https://github.com/yash-rai-93/Solar-Energy-Generation-Forecasting-and-Analysis)
+
+---
+
+## 🫀 PRISM — AI-Powered Real-Time Heart Rate Estimation
+
+**Deep Learning • Computer Vision • PyTorch • FastAPI • React**
+
+- Built a full-stack application serving the **PRISM inference pipeline**, integrating 8 deep learning models through a physics-informed meta-router.
+- Developed a **FastAPI backend** and interactive React frontend for real-time heart-rate estimation.
+- Implemented motion and lighting validation using **MediaPipe and OpenCV**.
+- Containerized inference services using **Docker** and deployed the application across Hugging Face Spaces and Render.
 
 🔗 [GitHub Repository](https://github.com/yash-rai-93/prism-rppg)
 
-### NewsPilot — Multi-Agent AI Research & Newsletter Platform
-*Generative AI | LangGraph | FastAPI | AWS*
+---
 
-- Built a multi-agent AI platform using LangGraph, LangChain, and Tavily Search to automate planning, research, drafting, review, and publishing.
-- Implemented optional Human-in-the-Loop approval and structured agent workflows.
-- Developed a production-ready backend using FastAPI, PostgreSQL (AWS RDS), Docker, GitHub Actions, and AWS EC2.
-- Implemented LLMOps capabilities including prompt versioning, evaluation, execution logging, REST APIs.
+## 📰 NewsPilot — Multi-Agent AI Research & Newsletter Platform
+
+**Generative AI • LangGraph • RAG • FastAPI • PostgreSQL • AWS**
+
+- Built a multi-agent AI platform using **LangGraph, LangChain, and Tavily Search** to automate planning, research, drafting, review, and publishing.
+- Implemented structured agent workflows with optional **Human-in-the-Loop** approval.
+- Developed a backend using **FastAPI, PostgreSQL, Docker, GitHub Actions, and AWS EC2/RDS**.
+- Implemented LLMOps capabilities including **prompt versioning, evaluation, execution logging, and REST APIs**.
 
 🔗 [GitHub Repository](https://github.com/yash-rai-93/NewsPilot--AI)
 
 ---
 
-## 🛠️ Technical Skills
+# 🛠️ Technical Skills
 
-**Programming & Core CS**
-Python, C++, SQL
-Data Structures & Algorithms
-Object-Oriented Programming
-DBMS, Operating Systems, Computer Networks
+### 📊 Data Science & Analytics
+Python • SQL • Pandas • NumPy • Data Cleaning • EDA • Statistical Analysis • Hypothesis Testing • Data Visualization • Time-Series Analysis
 
-**Machine Learning & Deep Learning**
-PyTorch, TensorFlow, Scikit-learn
-Deep Learning, Computer Vision
-OpenCV, MediaPipe
-Feature Engineering, Model Evaluation
+### 🤖 Machine Learning
+Scikit-learn • Supervised Learning • Unsupervised Learning • Feature Engineering • Model Evaluation • Classification • Regression • Predictive Modeling
 
-**Generative AI**
-LangChain, LangGraph
-Retrieval-Augmented Generation (RAG)
-Multi-Agent Systems
-Prompt Engineering
-LLMOps
+### 🧠 Deep Learning & Computer Vision
+PyTorch • TensorFlow • OpenCV • MediaPipe • Deep Learning • Computer Vision
 
-**Backend & Data Engineering**
-FastAPI, REST APIs
-PostgreSQL, Redis
-Apache Kafka, Apache Airflow
-Spark Structured Streaming
+### 📈 Business Intelligence
+Power BI • Dashboard Development • KPI Analysis • Reporting • Data Storytelling
 
-**Cloud & DevOps**
-AWS (EC2, RDS, S3)
-Docker, Kubernetes
-Git, GitHub Actions
-Linux
+### 🗄️ Databases & Data Engineering
+PostgreSQL • Relational Databases • DBMS • ETL • Data Pipelines • Apache Kafka • Apache Spark • Spark Structured Streaming • Apache Airflow
 
-**Data Science & Analytics**
-Pandas, NumPy
-Statistical Analysis, Hypothesis Testing
-Time-Series Analysis
-Power BI, Matplotlib, Seaborn
+### 🤖 Generative AI
+LangChain • LangGraph • RAG • Multi-Agent Systems • Prompt Engineering • LLMOps
+
+### ⚙️ ML Engineering & Backend
+FastAPI • REST APIs • Model Deployment • Docker • Redis
+
+### ☁️ Cloud & DevOps
+AWS (EC2, RDS, S3) • Git • GitHub Actions • Linux • Kubernetes • Prometheus • Grafana
+
+### 💻 Programming & Core CS
+Python • C++ • Data Structures & Algorithms • OOP • DBMS • Operating Systems • Computer Networks
 
 ---
 
-## 🏆 Achievements
+# 🏆 Achievements
 
-- MMVY Scholarship Awardee for 3 consecutive years.
-- G.P. Birla Scholarship recipient for academic excellence.
-- Semifinalist in Flipkart GRID 8.0 (2026), advancing through multiple rounds among 165,000+ participants.
-- Open-source contributor:
-  - GSSoC '25
-  - OSSCI 2025
+- 🏅 **Semifinalist — Flipkart GRID 8.0 (2026)**, advancing through multiple rounds among 165,000+ participants.
+- 🎓 **MMVY Scholarship Awardee** for 3 consecutive years.
+- 🎓 **G.P. Birla Scholarship** recipient for academic excellence.
+- 🌐 Open-source contributor through **GSSoC '25** and **OSSCI 2025**.
 
 ---
 
-## 👨‍💻 Positions of Responsibility
+# 👨‍💻 Positions of Responsibility
 
-**AI & Quadcopter Head — Aerospace Society, BIT Mesra**
-Leading AI and drone initiatives, technical workshops, and mentoring activities.
+### AI & Quadcopter Head — Aerospace Society, BIT Mesra
+- Leading AI and drone initiatives.
+- Mentoring junior members.
+- Coordinating technical workshops and hands-on engineering activities.
 
-**Outreach Head — Society of Data Science, BIT Mesra**
-Coordinating technical workshops, outreach initiatives, and community activities.
+### Outreach Head — Society of Data Science, BIT Mesra
+- Coordinating technical workshops and outreach initiatives.
+- Collaborating with students, faculty, and external stakeholders.
+- Supporting data-science community activities.
 
 ---
 
-## 🔬 Interests
+# 🎯 Areas of Interest
 
-Machine Learning & Deep Learning • Generative AI & Agentic Systems • Computer Vision • Data Science • MLOps & AI Engineering • Distributed Systems
+**Data Science** • **Machine Learning** • **Data Analytics** • **ML Engineering** • **Generative AI** • **Agentic AI** • **MLOps** • **Data Engineering** • **Computer Vision** • **Time-Series Forecasting**
 
 ---
 
@@ -137,6 +184,6 @@ Machine Learning & Deep Learning • Generative AI & Agentic Systems • Compute
 [![LinkedIn](https://img.shields.io/badge/-Yash%20Rai-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/Yash-Rai)
 [![GitHub](https://img.shields.io/badge/-yash--rai--93-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yash-rai-93)
 
-⭐ If you find my projects interesting, feel free to explore my repositories!
+⭐ Feel free to explore my projects and experiments!
 
 </div>
