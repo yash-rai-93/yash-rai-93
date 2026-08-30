@@ -181,7 +181,7 @@ Python • C++ • Data Structures & Algorithms • OOP • DBMS • Operating S
 ### 📫 Let's Connect
 
 [![Email](https://img.shields.io/badge/-yashrai4426%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:yashrai4426@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/-Yash%20Rai-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/Yash-Rai)
+[![LinkedIn](https://img.shields.io/badge/-Yash%20Rai-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-rai-5235241a5/)
 [![GitHub](https://img.shields.io/badge/-yash--rai--93-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/yash-rai-93)
 
 ⭐ Feel free to explore my projects and experiments!
