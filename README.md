@@ -44,18 +44,15 @@ A portfolio implementation for analyzing non-disclosure agreements with an open-
 
 ---
 
-## 🫀 PRISM — AI-Powered Real-Time Heart Rate Estimation
+### 🫀 [PRISM — Real-Time Heart Rate Estimation](https://github.com/yash-rai-93/prism-rppg)
 
-**Python • PyTorch • OpenCV • FastAPI • React • Docker**
+**Python · PyTorch · OpenCV · MediaPipe · FastAPI · React · Docker**
 
-* Developed a full-stack application for **real-time heart-rate estimation using camera-based rPPG signals**.
-* Designed an inference pipeline integrating multiple deep-learning models through a physics-informed routing mechanism.
-* Built a **FastAPI backend** to expose machine-learning inference through REST APIs.
-* Developed an interactive **React frontend** for real-time interaction with the ML system.
-* Implemented video processing and quality validation using **OpenCV and MediaPipe**.
-* Containerized application components using **Docker** and deployed the application using cloud platforms.
+A [live camera-based rPPG application](https://prism-rppg.onrender.com/) for contactless heart-rate estimation. PRISM extracts video quality and physiological features, predicts which specialist model should perform best for the input, and routes inference to that model. The React interface and FastAPI backend bring the research pipeline into an interactive demo.
 
-🔗 [GitHub Repository](https://github.com/yash-rai-93/prism-rppg)
+As part of my BIT Mesra research, I developed the physics-informed model selection approach and reported **1.08 BPM MAE** in motion-intensive evaluation. The work contributed to a patent filing and a paper submitted to IEEE TCBB.
+
+[Live app](https://prism-rppg.onrender.com/) · [Code and research overview](https://github.com/yash-rai-93/prism-rppg)
 
 ---
 
