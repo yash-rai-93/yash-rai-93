@@ -28,7 +28,6 @@ I work on agentic applications, LLM fine-tuning workflows, and machine learning 
 
 An [interactive customer-support demo](https://agentic-customer-support-system.yashrai4426.workers.dev) for order questions and refund requests. A tool-using agent gathers customer-scoped data, while deterministic application code enforces refund policy, ownership, and ledger writes. The app includes a live audit timeline, admin console, model fallback, evaluation cases, and Opik traces.
 
-I adapted and deployed the system from a [reference project](https://github.com/LikhithV02/Customer-Support-Agent), configured the Gemini-powered cloud stack, and maintain its [project documentation and demo](https://yash-rai-93.github.io/Agentic-Customer-Support-System/).
 
 [Live app](https://agentic-customer-support-system.yashrai4426.workers.dev) · [Project overview](https://yash-rai-93.github.io/Agentic-Customer-Support-System/) · [Code](https://github.com/yash-rai-93/Agentic-Customer-Support-System)
 
