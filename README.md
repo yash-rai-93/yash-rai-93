@@ -9,7 +9,7 @@ I work on agentic applications, LLM fine-tuning workflows, and machine learning 
 [![Live customer support demo](https://img.shields.io/badge/Live%20Demo-Customer%20Support-2563EB?style=for-the-badge)](https://agentic-customer-support-system.yashrai4426.workers.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Yash%20Rai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-rai-5235241a5/)
 [![Email](https://img.shields.io/badge/Email-Get%20in%20touch-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashrai4426@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/yash-rai-93)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/yashrai4426/)
 
 </div>
 
