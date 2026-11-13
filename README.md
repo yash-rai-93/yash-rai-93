@@ -1,7 +1,8 @@
 <picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/identity-static.svg">
   <source media="(prefers-color-scheme: dark)" srcset="assets/identity-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/identity-light.svg">
-  <img src="assets/identity-light.svg" alt="Yash Rai — from signal to system. AI and ML engineering." width="100%">
+  <img src="assets/identity-static.svg" alt="Yash Rai — from signal to system. AI and ML engineering." width="100%">
 </picture>
 
 **I build models, agents, and the software around them.**

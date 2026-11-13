@@ -15,13 +15,18 @@ not an architecture diagram or a chart of measured data.
   GitHub already presents contribution activity below the profile.
 
 `assets/identity-light.svg` and `assets/identity-dark.svg` are self-contained SVGs
-selected with GitHub's supported `<picture>` pattern. The fallback is the light
-asset. They use local system fonts and an optional 12-second CSS trace animation.
+selected with GitHub's supported `<picture>` pattern. They use local system fonts
+and an optional 12-second CSS trace animation.
 There are no scripts, external fonts, network references, or embedded HTML. The
-static circuit is complete without animation; `prefers-reduced-motion: reduce`
-disables the moving trace. Important profile content remains in native Markdown.
+static circuit is complete without animation. A first `<source>` selects
+`identity-static.svg` for `prefers-reduced-motion: reduce`; this is also the
+fallback image. It contains no moving path and adapts its palette through the
+embedding page's color scheme. This explicit still image avoids browser issues
+with reduced-motion CSS inside SVG images and GitHub rewriting combined
+theme/motion source queries when a visitor sets an explicit theme. Important
+profile content remains in native Markdown.
 
-Regenerate both assets after changing the palette or geometry:
+Regenerate all three assets after changing the palette or geometry:
 
 ```sh
 python3 scripts/generate-profile-assets.py

@@ -2,6 +2,7 @@
   <title id="title">Yash Rai — from signal to system</title>
   <desc id="desc">AI and ML engineering. An abstract signal becomes a structured routing circuit. Decorative traces move slowly; reduced-motion preferences disable movement. This illustration is not measured data.</desc>
   <style>
+
     .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }
     .mono { font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }
     .flow { stroke-dasharray: 9 91; animation: trace 12s linear infinite; }

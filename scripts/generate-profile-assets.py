@@ -26,10 +26,20 @@ def render(theme: str, colors: dict[str, str]) -> str:
         "L644 134 L656 142 H690 Q710 142 710 122 V94 Q710 80 726 80 "
         "H760 Q776 80 776 96 V126 Q776 142 792 142 H866"
     )
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" fill="none" role="img" aria-labelledby="title desc">
+    variables = ""
+    if theme == "static":
+        light = ";".join(f"--{key}:{value}" for key, value in PALETTES["light"].items())
+        dark = ";".join(f"--{key}:{value}" for key, value in PALETTES["dark"].items())
+        variables = f":root {{{light}}} @media (prefers-color-scheme: dark) {{ :root {{{dark}}} }}"
+    motion_path = "" if theme == "static" else (
+        f'<path class="flow" d="{signal}" pathLength="100" stroke="{accent}" '
+        'stroke-width="2.5" stroke-linecap="round"/>'
+    )
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Yash Rai — from signal to system</title>
   <desc id="desc">AI and ML engineering. An abstract signal becomes a structured routing circuit. Decorative traces move slowly; reduced-motion preferences disable movement. This illustration is not measured data.</desc>
   <style>
+    {variables}
     .sans {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; }}
     .mono {{ font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', monospace; }}
     .flow {{ stroke-dasharray: 9 91; animation: trace 12s linear infinite; }}
@@ -53,7 +63,7 @@ def render(theme: str, colors: dict[str, str]) -> str:
     <path d="M710 142 H744 Q760 142 760 158 V176"/>
     <path d="{signal}"/>
   </g>
-  <path class="flow" d="{signal}" pathLength="100" stroke="{accent}" stroke-width="2.5" stroke-linecap="round"/>
+  {motion_path}
   <g fill="{bg}" stroke="{line}" stroke-width="1.5">
     <circle cx="560" cy="94" r="3"/>
     <circle cx="560" cy="142" r="3"/>
@@ -74,6 +84,7 @@ def render(theme: str, colors: dict[str, str]) -> str:
   </g>
 </svg>
 '''
+    return "\n".join(line.rstrip() for line in svg.splitlines()) + "\n"
 
 
 def main() -> None:
@@ -83,6 +94,12 @@ def main() -> None:
         path = directory / f"identity-{theme}.svg"
         path.write_text(render(theme, colors), encoding="utf-8")
         print(f"Generated {path.relative_to(ROOT)}")
+    path = directory / "identity-static.svg"
+    path.write_text(
+        render("static", {key: f"var(--{key})" for key in PALETTES["light"]}),
+        encoding="utf-8",
+    )
+    print(f"Generated {path.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":
