@@ -1,89 +1,65 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/identity-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/identity-light.svg">
+  <img src="assets/identity-light.svg" alt="Yash Rai — from signal to system. AI and ML engineering." width="100%">
+</picture>
 
-# Hi, I'm Yash Rai 👋
+**I build models, agents, and the software around them.**
 
-**AI & ML undergraduate at BIT Mesra · Building AI systems from model to deployment**
+I'm Yash, a final-year AI/ML student at **BIT Mesra**. I work on physiological sensing, LLMs, and agents, alongside the APIs, interfaces, and infrastructure that turn experiments into working applications.
 
-I work on agentic applications, LLM fine-tuning workflows, and machine learning research. I enjoy making models useful through reliable APIs, evaluation, and observability.
+[LinkedIn](https://www.linkedin.com/in/yash-rai-5235241a5/) · [Email](mailto:yashrai4426@gmail.com) · [LeetCode](https://leetcode.com/u/yashrai4426/)
 
-[![Live customer support demo](https://img.shields.io/badge/Live%20Demo-Customer%20Support-2563EB?style=for-the-badge)](https://agentic-customer-support-system.yashrai4426.workers.dev)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Yash%20Rai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yash-rai-5235241a5/)
-[![Email](https://img.shields.io/badge/Email-Get%20in%20touch-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yashrai4426@gmail.com)
-[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/yashrai4426/)
+## Selected work
 
-</div>
+### 01 · [PRISM](https://github.com/yash-rai-93/prism-rppg)
 
-## About me
+**Physics-aware model selection for contactless heart-rate estimation.**
 
-- 🎓 B.Tech in Artificial Intelligence and Machine Learning at **Birla Institute of Technology, Mesra** (2023–2027).
-- 🔬 Research experience in camera-based heart-rate estimation with physics-informed learning.
-- 🛠️ Interested in agent reliability, LLM evaluation, model serving, MLOps, and practical full-stack AI products.
-- 🤝 AI & Quadcopter Head at the Aerospace Society and Outreach Head at the Society of Data Science, BIT Mesra.
+A team research project at BIT Mesra. A **10-dimensional optical and motion representation** feeds a meta-regressor that predicts specialist rPPG errors and selects the lowest-error model. Kalman-stabilized face regions, a FastAPI video pipeline, remote inference, and a React analysis interface connect the research to an application.
 
-## Featured projects
+[Source & architecture](https://github.com/yash-rai-93/prism-rppg#-core-architecture) · [Reported experiments](https://github.com/yash-rai-93/prism-rppg#-performance--evaluation) · [Web demo](https://prism-rppg.onrender.com/)
 
-### 🤖 [Agentic Customer Support System](https://github.com/yash-rai-93/Agentic-Customer-Support-System)
+### 02 · [Agentic Customer Support](https://github.com/yash-rai-93/Agentic-Customer-Support-System)
 
-**LangGraph · FastAPI · React · PostgreSQL · Redis · Gemini · Opik · Google Cloud Run**
+**Tool-using agents with policy enforced at the write boundary.**
 
-An [interactive customer-support demo](https://agentic-customer-support-system.yashrai4426.workers.dev) for order questions and refund requests. A tool-using agent gathers customer-scoped data, while deterministic application code enforces refund policy, ownership, and ledger writes. The app includes a live audit timeline, admin console, model fallback, evaluation cases, and Opik traces.
+A LangGraph agent handles order questions and refunds; application code rechecks identity, ownership, and refund policy before committing a decision. **PostgreSQL row locks and a unique approval index** guard against duplicate refunds. Redis coordination, streamed audit events, model fallback, and Opik traces support the deployed application.
 
+The committed Gemini baseline covers **82 cases**, with all four deterministic metrics at **100%**; this describes the recorded evaluation.
 
-[Live app](https://agentic-customer-support-system.yashrai4426.workers.dev) · [Project overview](https://yash-rai-93.github.io/Agentic-Customer-Support-System/) · [Code](https://github.com/yash-rai-93/Agentic-Customer-Support-System)
+[Try the app](https://agentic-customer-support-system.yashrai4426.workers.dev) · [Architecture](https://github.com/yash-rai-93/Agentic-Customer-Support-System#architecture) · [Evaluation record](https://github.com/yash-rai-93/Agentic-Customer-Support-System/blob/main/backend/evals/baseline.json)
 
----
+### 03 · [Legal LLM Fine-Tuning](https://github.com/yash-rai-93/Legal-LLM-Fine-Tuning-and-MLOps)
 
-### ⚖️ [Legal LLM Fine-Tuning & MLOps](https://github.com/yash-rai-93/Legal-LLM-Fine-Tuning-and-MLOps)
+**Long contracts, limited GPU memory, and an inspectable model lifecycle.**
 
-**PyTorch · Hugging Face Transformers · QLoRA · MLRun · AWS SageMaker · vLLM · Terraform**
+A contract-analysis pipeline adapts Hermes-4-14B to classify **17 ContractNLI hypotheses** and return supporting clauses. The training recipe combines QLoRA, 4-bit NF4, BF16, gradient checkpointing, and PyTorch DDP. MLRun artifacts, versioned adapters, and SageMaker/vLLM serving code extend the work beyond training. Historical evaluation and serving measurements are documented with their scope and limitations.
 
-A portfolio implementation for analyzing non-disclosure agreements with an open-weight LLM. It prepares ContractNLI data, fine-tunes Hermes-4-14B adapters with QLoRA, evaluates hypothesis labels and supporting clauses, and includes model registry, serving, monitoring, and infrastructure code. The repository documents recorded experiments and the setup needed to run its AWS/MLRun workflows; its full production path is still being completed.
+[Training & evaluation](https://github.com/yash-rai-93/Legal-LLM-Fine-Tuning-and-MLOps/blob/main/docs/training-and-evaluation.md) · [Lifecycle & implementation status](https://github.com/yash-rai-93/Legal-LLM-Fine-Tuning-and-MLOps#implementation-status)
 
-[Code and architecture](https://github.com/yash-rai-93/Legal-LLM-Fine-Tuning-and-MLOps) · [Training and evaluation](https://github.com/yash-rai-93/Legal-LLM-Fine-Tuning-and-MLOps/blob/main/docs/training-and-evaluation.md)
+### 04 · [TaskForge CloudOps](https://github.com/yash-rai-93/taskforge-cloudops)
 
----
+**An independently built application, from interface to infrastructure.**
 
-### 🫀 [PRISM — Real-Time Heart Rate Estimation](https://github.com/yash-rai-93/prism-rppg)
+I built the task-management application and its engineering implementation end to end: **Next.js, a NestJS API, PostgreSQL, and a dedicated BullMQ worker**. Docker Compose, Terraform-provisioned AWS infrastructure, and GitHub Actions deliver digest-pinned releases. Background reports expose real queue state; verification covers worker recovery, persistence, and deployment rollback in CI.
 
-**Python · PyTorch · OpenCV · MediaPipe · FastAPI · React · Docker**
+[Application & architecture](https://github.com/yash-rai-93/taskforge-cloudops#architecture) · [Background jobs](https://github.com/yash-rai-93/taskforge-cloudops/blob/main/docs/BACKGROUND_JOBS.md) · [Delivery pipeline](https://github.com/yash-rai-93/taskforge-cloudops/blob/main/docs/CI_CD.md)
 
-A [live camera-based rPPG application](https://prism-rppg.onrender.com/) for contactless heart-rate estimation. PRISM extracts video quality and physiological features, predicts which specialist model should perform best for the input, and routes inference to that model. The React interface and FastAPI backend bring the research pipeline into an interactive demo.
+### 05 · [AstraDrive](https://github.com/yash-rai-93/astradrive)
 
-As part of my BIT Mesra research, I developed the physics-informed model selection approach and reported **1.08 BPM MAE** in motion-intensive evaluation. The work contributed to a patent filing and a paper submitted to IEEE TCBB.
+**A perception-to-control loop in autonomous-driving simulation.**
 
-[Live app](https://prism-rppg.onrender.com/) · [Code and research overview](https://github.com/yash-rai-93/prism-rppg)
+A simulation pipeline connects BeamNG.tech camera and radar inputs to **hybrid CV/UFLDv2 lane perception, YOLO detection, and PID steering**. It includes cruise control and a separate radar/TTC braking mode. The active loop runs perception locally; HTTP aggregation and Docker services are experimental alternatives. Recorded demos show individual experiments in this research prototype.
 
----
+[Architecture & scope](https://github.com/yash-rai-93/astradrive#architecture) · [Demos & project site](https://yash-rai-93.github.io/astradrive/)
 
-## Technical skills
+## Working toolkit
 
-| Area | Tools and concepts |
-|---|---|
-| Languages | Python, C++, SQL |
-| Agents and generative AI | LangGraph, LangChain, tool calling, ReAct agents, RAG, Hugging Face Transformers |
-| LLM training and evaluation | PEFT/LoRA, QLoRA, PyTorch DDP, vLLM, DeepEval, Opik, Promptfoo |
-| ML and data | PyTorch, scikit-learn, pandas, NumPy, feature engineering, model evaluation, Kafka, Spark |
-| Backend and data stores | FastAPI, REST APIs, PostgreSQL, Redis |
-| Cloud and MLOps | AWS, Google Cloud, Docker, GitHub Actions, MLRun, Terraform, Kubernetes |
-
-## Experience
-
-**Research Intern · BIT Mesra** · Jan–Apr 2026
-
-Developed a physics-informed meta-learning approach for rPPG heart-rate estimation. Reported **1.08 BPM MAE** in motion-intensive evaluation; contributed to a patent filing and a paper submitted to IEEE TCBB.
-
-**Freelance Machine Learning Engineer · Independent client** · May–Jun 2026
-
-Built a predictive-maintenance pipeline and FastAPI inference service with Kafka, Spark, and monitoring. Reported **0.94 F1** for failure-risk prediction.
-
-## Recognition
-
-Flipkart GRID 8.0 semifinalist (2026) · MMVY scholarship recipient (three years) · G.P. Birla Scholarship recipient
+- **Models & experiments** — Python, PyTorch, OpenCV, Transformers, PEFT/QLoRA.
+- **Applications & data** — TypeScript, React/Next.js, FastAPI, NestJS, PostgreSQL, Redis.
+- **Delivery & operations** — Docker, GitHub Actions, AWS, Terraform, Google Cloud Run.
 
 ---
 
-<div align="center">
-
-**Let's connect:** [LinkedIn](https://www.linkedin.com/in/yash-rai-5235241a5/) · [Email](mailto:yashrai4426@gmail.com) · [GitHub](https://github.com/yash-rai-93)
-
-</div>
+Interested in AI/ML engineering, agent reliability, applied research, and backend systems. If you're working on a problem in these areas, [let's talk](mailto:yashrai4426@gmail.com).
