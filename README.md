@@ -9,7 +9,7 @@
 
 I'm Yash, a final-year AI/ML student at **BIT Mesra**. I work on physiological sensing, LLMs, and agents, alongside the APIs, interfaces, and infrastructure that turn experiments into working applications.
 
-[LinkedIn](https://www.linkedin.com/in/yash-rai-5235241a5/) · [Email](mailto:yashrai4426@gmail.com) · [LeetCode](https://leetcode.com/u/yashrai4426/)
+[Résumé](https://drive.google.com/file/d/12PuR8q8lnd-NiKdVJQ5nH3X2RjIwL8Vw/view?usp=drive_link) · [LinkedIn](https://www.linkedin.com/in/yash-rai-5235241a5/) · [Email](mailto:yashrai4426@gmail.com) · [LeetCode](https://leetcode.com/u/yashrai4426/)
 
 ## Selected work
 

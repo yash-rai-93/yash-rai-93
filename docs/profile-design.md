@@ -111,9 +111,9 @@ returned successful HTTP responses during checks. LinkedIn's public endpoint
 returned its automated-client restriction (HTTP 999); the URL is preserved from
 the previous profile, without claiming a successful automated verification.
 
-No public résumé URL was present in the inspected profile or repositories. The
-profile has no placeholder résumé link. Add a verified public URL beside LinkedIn
-and email when one is supplied.
+The [résumé link](https://drive.google.com/file/d/12PuR8q8lnd-NiKdVJQ5nH3X2RjIwL8Vw/view?usp=drive_link)
+was supplied directly by Yash and appears first in the contact links beside
+LinkedIn, email, and LeetCode.
 
 The profile intentionally omits dated experience and recognition claims that the
 five project repositories do not establish. Refresh source evidence before adding
